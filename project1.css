@@ -1,0 +1,244 @@
+body{
+    font-size: 16px;
+    background-color: #61122f;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav
+{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+#logo-img
+{
+    
+    width: 100px;
+    height: 100px;
+    margin : 10px 15px 10px 0;
+
+    
+
+}
+#navbar-font{
+    font-size: 2rem;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(218, 20, 20);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+
+}
+@media (min-width:768px)
+{.navbarlgmd
+{
+    position: absolute; bottom: 20px; right: 0; font-size: 14px; color: green;
+}}
+@media (max-width:767px)
+{.navbarsm
+{position: absolute; top: 40px; right: 10px; font-size: 14px; color: green;
+    
+    
+    
+
+
+}}
+#menu
+{
+    border: 1px solid #61122f;
+    
+}
+.material-icons
+{
+    color: #61122f;
+    font-size: 4vw;/*1vw=1%of viewport width*/
+    
+   
+
+ 
+}
+#navtext
+{
+    text-align: center;
+}
+#navtext a:hover
+{
+    background: #e7e7e7;
+}
+ 
+#navtext p{
+    font-size: 1em;
+    color:#61122f;
+}
+#menu-tile,#special-tile,#maps
+{
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
+    position:relative;
+    border: 2px solid #3F0C1F ;
+    overflow: hidden;
+}
+#menu-tile:hover,#special-tile:hover,#maps:hover
+{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+#menu-tile
+{
+    background: url("foof.jpg") no-repeat ;
+    background-position: center;
+}
+#special-tile
+{
+    background: url("food1.jpg") no-repeat;
+    background-position: center;
+
+}
+#menu-tile span , #special-tile span ,#maps span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .6;
+}
+@media(max-width:575px)
+{
+    #menu-tile,#special-tile
+    {
+        width: 350px;
+        background-position: center;
+        margin: 0 auto 15px;
+    }
+}
+@media (max-width:479px)
+{  
+    #menu-tile,#special-tile
+    {   
+        width: 280px;
+        background-position: center;
+        margin: 0 auto 15px;
+    }
+}
+#hours>span,#address>span{
+    font-size: 1.3em;}
+#address>p{
+    color: #557c3e;
+    font-size: .8em;
+}
+#testimonials
+{
+    font-style: italic;
+}
+ 
+section hr
+{   
+    width: 50%;
+}
+/*MenuPAge*/
+.category-tile
+{
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    margin: 15px auto 15px;/*position the image centraly when the screem size decreases to sm*/
+}
+.category-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size:1.2em ;
+    text-transform: uppercase;
+    background-color: #000;
+    color:#fff;
+    opacity: .6;
+
+}
+.category-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc;
+}
+@media (max-width:402px)
+{
+   #xxs
+    {
+        width: 100%;
+        
+    }
+}
+.active{
+    background-color: whitesmoke;
+}
+.menu-item-tile
+{
+    margin-bottom: 25px;
+}
+.menu-item-tile hr{
+    width: 80%;
+}
+.menu-item-tile .menu-item-price
+{
+    font-size: 1.1em;
+    text-align: right;
+    margin-top: -10px;
+    margin-right: -10px;
+}
+.menu-item-tile .menu-item-price span
+{
+    font-size: .6em;
+}
+.menu-item-photo
+{
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 5px;
+    max-width: 250px;
+}
+.menu-item-photo div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 80px;
+    background-color: #557c3e;
+    text-align: center;
+}
+.menu-item-discription
+{
+    padding-right: 30px;
+}
+h3.menu-item-title
+{
+    margin:0 0 10px;
+}
+.menu-item-details
+{
+    font-size: .9em;
+    font-style: italic;
+}
+@media(max-width:574px)
+{
+    
+    .menu-item-photo
+    {
+        margin-right: auto;
+    }
+    .menu-item-tile .menu-item-price
+    {
+        text-align: center;
+    }
+    .menu-item-discription
+    {
+        text-align: center;
+    }
+}

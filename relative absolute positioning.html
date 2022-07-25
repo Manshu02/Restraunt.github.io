@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative-absolute positioning</title>
+    <style>
+        div
+        { position: absolute;
+            background-color: burlywood;
+            width: 200px;
+            right: 550px;
+            bottom:250px;
+            
+        }
+        p{
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            margin: 4px;
+            position: relative;
+            
+            
+
+            
+        }
+        a
+        {
+            position: absolute;
+            top: 18px;
+            left: 18px;
+
+        }
+        #p1
+        {
+            background-color: brown;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            
+           
+        }
+        #p2
+        {
+            background-color: chartreuse;
+        }
+        #p3
+        {
+            background-color: darkmagenta;
+        }
+        #p3 {
+            background-color: deeppink;
+        }
+        #p4
+        {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Relative-absolute positioning</h1>
+    <div>
+        <p id="p1"><a>H</a></p>
+        <p id="p2"><a>E</a></p>
+        <p id="p3"><a>L</a></p>
+        <p id="p4"><a>O</a></p>
+    </div>
+    
+
+</body>
+</html>

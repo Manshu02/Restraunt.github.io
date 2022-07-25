@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive design</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        p{
+            width:90%;
+            height: 150px;
+            background-color: coral;
+            border: 1px solid black;
+            margin-right: auto;
+            margin-left: auto;
+            position: relative;
+        }
+        @media (min-width:1200px)/*For large devices*/
+        {
+            .col-lg-3
+            {   
+                float: left;
+                width:12.5%;
+                border: 1px solid green;
+            }
+        }
+        @media (min-width:950px) and (max-width:1199px)
+        {
+            .col-md-6
+            {
+                float: left;
+                width:50%;
+                border: 1px solid black;
+            }
+        }
+        a{
+            position: absolute;
+            top: 70px;
+            left: 125px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Design</h1>
+    <div class="col-lg-3 col-md-6"><p><a>one</a></p></div>
+    <div class="col-lg-3 col-md-6"><p><a>two</a></p></div>
+    <div class="col-lg-3 col-md-6"><p><a>three</a></p></div>
+    <div class="col-lg-3 col-md-6"><p><a>four</a></p></div>
+    <div class="col-lg-3 col-md-6"><p>five</p></div>
+    <div class="col-lg-3 col-md-6"><p>six</p></div>
+    <div class="col-lg-3 col-md-6"><p>seven</p></div>
+    <div class="col-lg-3 col-md-6"><p>eight</p></div>
+    
+</body>
+</html>

@@ -1,0 +1,45 @@
+body{
+    font-size: 16px;
+    background-color: #61122f;
+    color: #fff;
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav
+{
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+#logo-img
+{
+    
+    width: 100px;
+    height: 100px;
+    margin : 10px 15px 10px 0;
+
+    
+
+}
+#navbar-font{
+    font-size: 2rem;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(218, 20, 20);
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+
+}
+@media (min-width:768px)
+{.navbarlgmd
+{
+    position: absolute; bottom: 20px; right: 0; font-size: 14px; color: green;
+}}
+@media (max-width:767px)
+{.navbarsm
+{position: absolute; top: 40px; right: 10px; font-size: 14px; color: green;
+    
+    
+    
+
+
+}}
